@@ -1,29 +1,29 @@
-class Mouse{
-    #nombre="def nombre";
-    getNombre(){
+class Mouse {
+    #nombre = "def nombre";
+    getNombre() {
         return this.#nombre
     }
-    setNombre(nuevoNombre){
-        this.#nombre= nuevoNombre;
+    setNombre(nuevoNombre) {
+        this.#nombre = nuevoNombre;
     }
 }
 
-const mouseJoha=new Mouse();
-mouseJoha.setNombre("Mouse Joha");
-console.log(mouseJoha.getNombre());
+const mousePropietario = new Mouse();
+mousePropietario.setNombre("Mouse Joha");
+console.log(mousePropietario.getNombre());
 
-class Computadora{
-    #nombre="def nombre";
-    getNombreComputadora(){
+class Computadora {
+    #nombre = "def nombre";
+    getNombreComputadora() {
         return this.#nombre
     }
-    setNombreComputadora(nuevoNombre){
-        this.#nombre= nuevoNombre;
+    setNombreComputadora(nuevoNombre) {
+        this.#nombre = nuevoNombre;
     }
 
 }
 
-const computadoraJoha=new Computadora();
-computadoraJoha.setNombre("Computadora Joha");
-console.log(computadoraJoha.getNombre());
+const computadoraPropietario = new Computadora();
+computadoraPropietario.setNombreComputadora("Computadora Joha");
+console.log(computadoraPropietario.getNombreComputadora());
 
